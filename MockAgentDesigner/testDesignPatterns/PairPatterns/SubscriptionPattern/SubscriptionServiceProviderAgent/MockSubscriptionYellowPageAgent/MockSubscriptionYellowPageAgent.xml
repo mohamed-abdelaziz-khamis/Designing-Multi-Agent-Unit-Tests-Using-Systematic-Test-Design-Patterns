@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	
+	<SuccessfulScenario>
+		<REQUEST_ConversationID>service-subscription</REQUEST_ConversationID>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key> 
+		<Service_Description_Name_Key>Service_Description_Name</Service_Description_Name_Key>
+		<Subscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Subscription_ACCEPT_PROPOSAL_Performative>
+		<Subscription_ACCEPT_PROPOSAL_Content>subscription-accepted</Subscription_ACCEPT_PROPOSAL_Content>
+		<Subscription_REFUSE_Performative>REFUSE</Subscription_REFUSE_Performative>
+		<Subscription_REFUSE_Content>subscription-refused</Subscription_REFUSE_Content>
+		<Unsubscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Unsubscription_ACCEPT_PROPOSAL_Performative>
+		<Unsubscription_ACCEPT_PROPOSAL_Content>unsubscription-accepted</Unsubscription_ACCEPT_PROPOSAL_Content>
+		<Unsubscription_REFUSE_Performative>REFUSE</Unsubscription_REFUSE_Performative>
+		<Unsubscription_REFUSE_Content>unsubscription-refused</Unsubscription_REFUSE_Content>
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<REQUEST_ConversationID>other-service-subscription</REQUEST_ConversationID>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key> 
+		<Service_Description_Name_Key>Service_Description_Name</Service_Description_Name_Key>
+		<Subscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Subscription_ACCEPT_PROPOSAL_Performative>
+		<Subscription_ACCEPT_PROPOSAL_Content>subscription-accepted</Subscription_ACCEPT_PROPOSAL_Content>
+		<Subscription_REFUSE_Performative>REFUSE</Subscription_REFUSE_Performative>
+		<Subscription_REFUSE_Content>subscription-refused</Subscription_REFUSE_Content>
+		<Unsubscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Unsubscription_ACCEPT_PROPOSAL_Performative>
+		<Unsubscription_ACCEPT_PROPOSAL_Content>unsubscription-accepted</Unsubscription_ACCEPT_PROPOSAL_Content>
+		<Unsubscription_REFUSE_Performative>REFUSE</Unsubscription_REFUSE_Performative>
+		<Unsubscription_REFUSE_Content>unsubscription-refused</Unsubscription_REFUSE_Content>
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

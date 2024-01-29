@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>
+		<Message_Content>content</Message_Content>		
+		<Language>language</Language>
+		<Offered_Language>language</Offered_Language>		
+		<Client_Content>content</Client_Content>
+		<Translated_Client_Content>translated-content</Translated_Client_Content>
+		<Translated_Source_Answer>translated-source-answer</Translated_Source_Answer>
+		<Source_Answer>source-answer</Source_Answer>
+		<Translation_REQUEST_Performative>REQUEST</Translation_REQUEST_Performative>
+		<Translation_REQUEST_ConversationID>service-wrapping</Translation_REQUEST_ConversationID>
+		<Source_Answer_Success>true</Source_Answer_Success>
+		<Offered_Source_Answer>source-answer</Offered_Source_Answer>
+		<Translation_FAILURE_Performative>FAILURE</Translation_FAILURE_Performative>
+		<Translation_FAILURE_Content>translation-failed</Translation_FAILURE_Content>
+		<Translation_INFORM_Performative>INFORM</Translation_INFORM_Performative>
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Message_Content>content</Message_Content>		
+		<Language>language</Language>
+		<Offered_Language>language</Offered_Language>		
+		<Client_Content>other-content</Client_Content>
+		<Translated_Client_Content>translated-content</Translated_Client_Content>
+		<Translated_Source_Answer>translated-source-answer</Translated_Source_Answer>
+		<Source_Answer>source-answer</Source_Answer>
+		<Translation_REQUEST_Performative>REQUEST</Translation_REQUEST_Performative>
+		<Translation_REQUEST_ConversationID>service-wrapping</Translation_REQUEST_ConversationID>
+		<Source_Answer_Success>true</Source_Answer_Success>
+		<Offered_Source_Answer>source-answer</Offered_Source_Answer>
+		<Translation_FAILURE_Performative>FAILURE</Translation_FAILURE_Performative>
+		<Translation_FAILURE_Content>translation-failed</Translation_FAILURE_Content>
+		<Translation_INFORM_Performative>INFORM</Translation_INFORM_Performative>
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

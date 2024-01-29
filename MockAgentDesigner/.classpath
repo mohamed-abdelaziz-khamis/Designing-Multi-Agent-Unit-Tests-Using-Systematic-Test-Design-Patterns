@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/Base64.jar" sourcepath="F:/workspace/MockAgentDesigner/lib/JADE_SRC.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/http.jar" sourcepath="F:/workspace/MockAgentDesigner/lib/JADE_SRC.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/iiop.jar" sourcepath="F:/workspace/MockAgentDesigner/lib/JADE_SRC.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jadeTools.jar" sourcepath="F:/workspace/MockAgentDesigner/lib/JADE_SRC.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jade.jar" sourcepath="F:/workspace/MockAgentDesigner/lib/JADE_SRC.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/D:/Mohamed/Master/Thesis/jade/doc/api/jade/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/junit.jar" sourcepath="F:/workspace/MockAgentDesigner/lib/JUNIT_SRC.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/vtd-xml.jar" sourcepath="F:/workspace/MockAgentDesigner/lib/VTD-XML_SRC.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="testDesignPatterns"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

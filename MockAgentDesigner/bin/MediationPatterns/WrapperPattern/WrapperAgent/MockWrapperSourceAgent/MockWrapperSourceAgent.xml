@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>
+		<Translated_Content>translated-content</Translated_Content>
+		<Offered_Source_Answer>source-answer</Offered_Source_Answer>
+		<Offered_Language>language</Offered_Language>
+		<Client_Content>content</Client_Content>
+		<Translated_Client_Content>translated-content</Translated_Client_Content>
+		<Translated_Source_Answer>translated-source-answer</Translated_Source_Answer>
+		<Source_Answer>source-answer</Source_Answer>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<REQUEST_ConversationID>service-wrapping</REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>translatedContent-unavailable</FAILURE_Content>
+	</SuccessfulScenario>		
+	<ExceptionalScenario>
+		<Translated_Content>translated-content</Translated_Content>
+		<Offered_Source_Answer>source-answer</Offered_Source_Answer>
+		<Offered_Language>language</Offered_Language>
+		<Client_Content>other-content</Client_Content>
+		<Translated_Client_Content>translated-content</Translated_Client_Content>
+		<Translated_Source_Answer>translated-source-answer</Translated_Source_Answer>
+		<Source_Answer>source-answer</Source_Answer>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<REQUEST_ConversationID>service-wrapping</REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>translatedContent-unavailable</FAILURE_Content>
+	</ExceptionalScenario>	
+</TestDesignPattern>

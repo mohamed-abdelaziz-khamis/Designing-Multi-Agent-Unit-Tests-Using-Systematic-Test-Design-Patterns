@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>		
+		<Requested_Agent_Domain>agent-domain</Requested_Agent_Domain>	
+		<Digital_Certificate_Level>1</Digital_Certificate_Level>
+		<Message_Content>content</Message_Content>
+		<Ontology>ontology</Ontology>
+						
+		<Offered_Agent_Domain>agent-domain</Offered_Agent_Domain>
+		<Local_Digital_Certificate_Level>1</Local_Digital_Certificate_Level>  
+		<Offered_Ontology>ontology</Offered_Ontology>
+		<Foreign_Content>content</Foreign_Content>
+		<Translated_Foreign_Content>translated-content</Translated_Foreign_Content> 
+		<Translated_Local_Response>translated-local-response</Translated_Local_Response>
+		<Local_Response>local-response</Local_Response> 
+		
+		<Access_REQUEST_Performative>REQUEST</Access_REQUEST_Performative> 
+		<Access_REQUEST_ConversationID>request-embassy</Access_REQUEST_ConversationID>
+		<AGREE_Performative>AGREE</AGREE_Performative> 
+		<AGREE_ConversationID>request-embassy</AGREE_ConversationID>
+		<Translation_REQUEST_Performative>REQUEST</Translation_REQUEST_Performative> 
+		<Translation_REQUEST_ConversationID>request-embassy</Translation_REQUEST_ConversationID> 
+		<INFORM_Performative>INFORM</INFORM_Performative> 
+		<INFORM_ConversationID>request-embassy</INFORM_ConversationID>		
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Requested_Agent_Domain>agent-domain</Requested_Agent_Domain>	
+		<Digital_Certificate_Level>1</Digital_Certificate_Level>
+		<Message_Content>content</Message_Content>
+		<Ontology>ontology</Ontology>
+						
+		<Offered_Agent_Domain>other-agent-domain</Offered_Agent_Domain>
+		<Local_Digital_Certificate_Level>1</Local_Digital_Certificate_Level>  
+		<Offered_Ontology>ontology</Offered_Ontology>
+		<Foreign_Content>content</Foreign_Content>
+		<Translated_Foreign_Content>translated-content</Translated_Foreign_Content> 
+		<Translated_Local_Response>translated-local-response</Translated_Local_Response>
+		<Local_Response>local-response</Local_Response> 
+		
+		<Access_REQUEST_Performative>REQUEST</Access_REQUEST_Performative> 
+		<Access_REQUEST_ConversationID>request-embassy</Access_REQUEST_ConversationID>
+		<AGREE_Performative>AGREE</AGREE_Performative> 
+		<AGREE_ConversationID>request-embassy</AGREE_ConversationID>
+		<Translation_REQUEST_Performative>REQUEST</Translation_REQUEST_Performative> 
+		<Translation_REQUEST_ConversationID>request-embassy</Translation_REQUEST_ConversationID> 
+		<INFORM_Performative>INFORM</INFORM_Performative> 
+		<INFORM_ConversationID>request-embassy</INFORM_ConversationID>		
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

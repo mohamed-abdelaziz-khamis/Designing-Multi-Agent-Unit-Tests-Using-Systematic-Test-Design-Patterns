@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+
+	<SuccessfulScenario>
+		<Translated_Content>translated-content</Translated_Content>		
+		<Offered_Local_Response>local-response</Offered_Local_Response>
+		<Offered_Agent_Domain>agent-domain</Offered_Agent_Domain>
+		<Local_Digital_Certificate_Level>1</Local_Digital_Certificate_Level>  
+		<Offered_Ontology>ontology</Offered_Ontology>
+		<Foreign_Content>content</Foreign_Content>
+		<Translated_Foreign_Content>translated-content</Translated_Foreign_Content>
+		<Translated_Local_Response>translated-local-response</Translated_Local_Response>
+		<Local_Response>local-response</Local_Response>
+		<Local_Response_REQUEST_Performative>REQUEST</Local_Response_REQUEST_Performative>
+		<Local_Response_REQUEST_ConversationID>request-embassy</Local_Response_REQUEST_ConversationID>
+		<Local_Response_INFORM_Performative>INFORM</Local_Response_INFORM_Performative>
+		<Local_Response_INFORM_ConversationID>request-embassy</Local_Response_INFORM_ConversationID>
+	</SuccessfulScenario>
+
+	<ExceptionalScenario>
+		<Translated_Content>translated-content</Translated_Content>		
+		<Offered_Local_Response>local-response</Offered_Local_Response>
+		<Offered_Agent_Domain>agent-domain</Offered_Agent_Domain>
+		<Local_Digital_Certificate_Level>1</Local_Digital_Certificate_Level>  
+		<Offered_Ontology>ontology</Offered_Ontology>
+		<Foreign_Content>content</Foreign_Content>
+		<Translated_Foreign_Content>other-translated-content</Translated_Foreign_Content>
+		<Translated_Local_Response>translated-local-response</Translated_Local_Response>
+		<Local_Response>local-response</Local_Response>
+		<Local_Response_REQUEST_Performative>REQUEST</Local_Response_REQUEST_Performative>
+		<Local_Response_REQUEST_ConversationID>request-embassy</Local_Response_REQUEST_ConversationID>
+		<Local_Response_INFORM_Performative>INFORM</Local_Response_INFORM_Performative>
+		<Local_Response_INFORM_ConversationID>request-embassy</Local_Response_INFORM_ConversationID>
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

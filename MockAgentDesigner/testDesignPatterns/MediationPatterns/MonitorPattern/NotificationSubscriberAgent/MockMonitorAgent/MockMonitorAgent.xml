@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>
+		<Requested_Subject_Title>subject-title</Requested_Subject_Title> 
+		<SUBSCRIBE_Performative>SUBSCRIBE</SUBSCRIBE_Performative>
+		<SUBSCRIBE_ConversationID>notification-monitoring</SUBSCRIBE_ConversationID>
+		<Source_Reply_Performative>INFORM</Source_Reply_Performative>
+		<Source_Reply_Content>current-state</Source_Reply_Content>
+		<CANCEL_Performative>CANCEL</CANCEL_Performative>
+		<CANCEL_ConversationID>notification-monitoring</CANCEL_ConversationID>
+		<CONFIRM_Performative>CONFIRM</CONFIRM_Performative>
+		<CONFIRM_Content>unregisteration-confirmed</CONFIRM_Content>
+		<DISCONFIRM_Performative>DISCONFIRM</DISCONFIRM_Performative>
+		<DISCONFIRM_Content>unregisteration-disconfirmed</DISCONFIRM_Content>	
+	</SuccessfulScenario>
+
+	<ExceptionalScenario>
+		<Requested_Subject_Title>subject-title</Requested_Subject_Title> 
+		<SUBSCRIBE_Performative>SUBSCRIBE</SUBSCRIBE_Performative>
+		<SUBSCRIBE_ConversationID>notification-monitoring</SUBSCRIBE_ConversationID>
+		<Source_Reply_Performative>INFORM</Source_Reply_Performative>
+		<Source_Reply_Content>current-state</Source_Reply_Content>
+		<CANCEL_Performative>CANCEL</CANCEL_Performative>
+		<CANCEL_ConversationID>notification-monitoring</CANCEL_ConversationID>
+		<CONFIRM_Performative>CONFIRM</CONFIRM_Performative>
+		<CONFIRM_Content>unregisteration-confirmed</CONFIRM_Content>
+		<DISCONFIRM_Performative>DISCONFIRM</DISCONFIRM_Performative>
+		<DISCONFIRM_Content>unregisteration-disconfirmed</DISCONFIRM_Content>	
+	</ExceptionalScenario>
+
+</TestDesignPattern>

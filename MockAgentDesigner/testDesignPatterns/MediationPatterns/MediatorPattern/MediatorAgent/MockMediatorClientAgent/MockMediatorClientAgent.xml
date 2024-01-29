@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+
+	<SuccessfulScenario>		
+		<Request_Title>request-title</Request_Title>
+		<Main_Request_Title>request-title</Main_Request_Title>
+		<Sub_Request_Title>sub-request-title</Sub_Request_Title>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative> 
+		<REQUEST_ConversationID>service-mediating</REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<INFORM_ConversationID>service-mediating</INFORM_ConversationID>		
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Request_Title>other-request-title</Request_Title>
+		<Main_Request_Title>request-title</Main_Request_Title>
+		<Sub_Request_Title>sub-request-title</Sub_Request_Title>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative> 
+		<REQUEST_ConversationID>service-mediating</REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<INFORM_ConversationID>service-mediating</INFORM_ConversationID>		
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

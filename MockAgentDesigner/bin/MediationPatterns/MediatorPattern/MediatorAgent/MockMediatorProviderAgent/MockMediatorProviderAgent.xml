@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+
+	<SuccessfulScenario>		
+		<Offered_Sub_Request_Title>sub-request-title</Offered_Sub_Request_Title>
+		<Sub_Result>sub-result</Sub_Result>
+		<Main_Request_Title>request-title</Main_Request_Title>
+		<Sub_Request_Title>sub-request-title</Sub_Request_Title>
+		<Waker_Behaviour_Period>60000</Waker_Behaviour_Period>
+		<Subscription_REQUEST_Performative>REQUEST</Subscription_REQUEST_Performative>
+		<Subscription_REQUEST_ConversationID>service-mediating</Subscription_REQUEST_ConversationID>
+		<Subscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Subscription_ACCEPT_PROPOSAL_Performative>
+		<Subscription_ACCEPT_PROPOSAL_ConversationID>service-mediating</Subscription_ACCEPT_PROPOSAL_ConversationID>
+		<Sub_Result_REQUEST_Performative>REQUEST</Sub_Result_REQUEST_Performative>
+		<Sub_Result_REQUEST_ConversationID>service-mediating</Sub_Result_REQUEST_ConversationID>
+		<Sub_Result_INFORM_Performative>INFORM</Sub_Result_INFORM_Performative>
+		<Sub_Result_FAILURE_Performative>FAILURE</Sub_Result_FAILURE_Performative>
+		<Sub_Result_FAILURE_Content>sub-request-unavailable</Sub_Result_FAILURE_Content> 
+		<Unsubscription_REQUEST_Performative>REQUEST</Unsubscription_REQUEST_Performative>
+		<Unsubscription_REQUEST_ConversationID>service-mediating</Unsubscription_REQUEST_ConversationID>
+		<Unsubscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Unsubscription_ACCEPT_PROPOSAL_Performative>
+		<Unsubscription_ACCEPT_PROPOSAL_ConversationID>service-mediating</Unsubscription_ACCEPT_PROPOSAL_ConversationID>		
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Offered_Sub_Request_Title>other-sub-request-title</Offered_Sub_Request_Title>
+		<Sub_Result>sub-result</Sub_Result>
+		<Main_Request_Title>request-title</Main_Request_Title>
+		<Sub_Request_Title>sub-request-title</Sub_Request_Title>
+		<Waker_Behaviour_Period>60000</Waker_Behaviour_Period>
+		<Subscription_REQUEST_Performative>REQUEST</Subscription_REQUEST_Performative>
+		<Subscription_REQUEST_ConversationID>service-mediating</Subscription_REQUEST_ConversationID>
+		<Subscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Subscription_ACCEPT_PROPOSAL_Performative>
+		<Subscription_ACCEPT_PROPOSAL_ConversationID>service-mediating</Subscription_ACCEPT_PROPOSAL_ConversationID>
+		<Sub_Result_REQUEST_Performative>REQUEST</Sub_Result_REQUEST_Performative>
+		<Sub_Result_REQUEST_ConversationID>service-mediating</Sub_Result_REQUEST_ConversationID>
+		<Sub_Result_INFORM_Performative>INFORM</Sub_Result_INFORM_Performative>
+		<Sub_Result_FAILURE_Performative>FAILURE</Sub_Result_FAILURE_Performative>
+		<Sub_Result_FAILURE_Content>sub-request-unavailable</Sub_Result_FAILURE_Content> 
+		<Unsubscription_REQUEST_Performative>REQUEST</Unsubscription_REQUEST_Performative>
+		<Unsubscription_REQUEST_ConversationID>service-mediating</Unsubscription_REQUEST_ConversationID>
+		<Unsubscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Unsubscription_ACCEPT_PROPOSAL_Performative>
+		<Unsubscription_ACCEPT_PROPOSAL_ConversationID>service-mediating</Unsubscription_ACCEPT_PROPOSAL_ConversationID>		
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

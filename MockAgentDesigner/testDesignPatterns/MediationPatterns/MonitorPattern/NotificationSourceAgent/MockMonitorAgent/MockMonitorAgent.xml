@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>
+		<Requested_Subject_Title>subject-title</Requested_Subject_Title>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative> 
+		<REQUEST_ConversationID>notification-monitoring</REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<INFORM_ConversationID>notification-monitoring</INFORM_ConversationID>
+	</SuccessfulScenario>
+	<ExceptionalScenario>
+		<Requested_Subject_Title>subject-title</Requested_Subject_Title>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative> 
+		<REQUEST_ConversationID>notification-monitoring</REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<INFORM_ConversationID>notification-monitoring</INFORM_ConversationID>
+	</ExceptionalScenario>
+</TestDesignPattern>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+
+	<SuccessfulScenario>
+		<Request_Title>request-title</Request_Title>
+		<Main_Request_Title>request-title</Main_Request_Title>
+		<Sub_Request_Title>sub-request-title</Sub_Request_Title>
+		<Result_REQUEST_Performative>REQUEST</Result_REQUEST_Performative>
+		<Result_REQUEST_ConversationID>service-mediating</Result_REQUEST_ConversationID>
+		<Sub_Result_Success>true</Sub_Result_Success>
+		<Sub_Result>sub-result</Sub_Result>
+		<Result_FAILURE_Performative>FAILURE</Result_FAILURE_Performative>
+		<Result_FAILURE_Content>result-failed</Result_FAILURE_Content>
+		<Result_INFORM_Performative>INFORM</Result_INFORM_Performative>
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Request_Title>request-title</Request_Title>
+		<Main_Request_Title>other-request-title</Main_Request_Title>
+		<Sub_Request_Title>sub-request-title</Sub_Request_Title>
+		<Result_REQUEST_Performative>REQUEST</Result_REQUEST_Performative>
+		<Result_REQUEST_ConversationID>service-mediating</Result_REQUEST_ConversationID>
+		<Sub_Result_Success>true</Sub_Result_Success>
+		<Sub_Result>sub-result</Sub_Result>
+		<Result_FAILURE_Performative>FAILURE</Result_FAILURE_Performative>
+		<Result_FAILURE_Content>result-failed</Result_FAILURE_Content>
+		<Result_INFORM_Performative>INFORM</Result_INFORM_Performative>
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

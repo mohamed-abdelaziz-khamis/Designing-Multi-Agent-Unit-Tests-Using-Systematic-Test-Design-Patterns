@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+
+	<SuccessfulScenario>		
+		<Requested_Service_Title>service-title</Requested_Service_Title>
+		<Offered_Service_Title>service-title</Offered_Service_Title>
+		<Offered_Service_Price>100</Offered_Service_Price>
+		<Service_REQUEST_Performative>REQUEST</Service_REQUEST_Performative>
+		<Service_REQUEST_ConversationID>service-matchmaking</Service_REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<REFUSE_Performative>REFUSE</REFUSE_Performative>
+		<REFUSE_Content>service-unavailable</REFUSE_Content> 		
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Requested_Service_Title>service-title</Requested_Service_Title>
+		<Offered_Service_Title>other-service-title</Offered_Service_Title>
+		<Offered_Service_Price>100</Offered_Service_Price>
+		<Service_REQUEST_Performative>REQUEST</Service_REQUEST_Performative>
+		<Service_REQUEST_ConversationID>service-matchmaking</Service_REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<REFUSE_Performative>REFUSE</REFUSE_Performative>
+		<REFUSE_Content>service-unavailable</REFUSE_Content> 		
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>
+		<Requested_Subject_Title>subject-title</Requested_Subject_Title>
+		<Waker_Behaviour_Period>60000</Waker_Behaviour_Period>
+		<SUBSCRIBE_Performative>SUBSCRIBE</SUBSCRIBE_Performative>
+		<SUBSCRIBE_ConversationID>notification-monitoring</SUBSCRIBE_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<INFORM_ConversationID>notification-monitoring</INFORM_ConversationID>
+		<CANCEL_Performative>CANCEL</CANCEL_Performative>
+		<CANCEL_ConversationID>notification-monitoring</CANCEL_ConversationID>
+		<CONFIRM_Performative>CONFIRM</CONFIRM_Performative>
+		<CONFIRM_ConversationID>notification-monitoring</CONFIRM_ConversationID>		
+	</SuccessfulScenario>
+
+	<ExceptionalScenario>
+		<Requested_Subject_Title>subject-title</Requested_Subject_Title>
+		<Waker_Behaviour_Period>60000</Waker_Behaviour_Period>
+		<SUBSCRIBE_Performative>SUBSCRIBE</SUBSCRIBE_Performative>
+		<SUBSCRIBE_ConversationID>notification-monitoring</SUBSCRIBE_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<INFORM_ConversationID>notification-monitoring</INFORM_ConversationID>
+		<CANCEL_Performative>CANCEL</CANCEL_Performative>
+		<CANCEL_ConversationID>notification-monitoring</CANCEL_ConversationID>
+		<CONFIRM_Performative>CONFIRM</CONFIRM_Performative>
+		<CONFIRM_ConversationID>notification-monitoring</CONFIRM_ConversationID>
+	</ExceptionalScenario>
+</TestDesignPattern>

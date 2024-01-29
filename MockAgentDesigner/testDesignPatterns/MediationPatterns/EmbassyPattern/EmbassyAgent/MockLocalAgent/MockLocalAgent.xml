@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+
+	<SuccessfulScenario>	
+		<Translated_Content>translated-content</Translated_Content>		
+		<Offered_Local_Response>local-response</Offered_Local_Response>
+		<Offered_Agent_Domain>agent-domain</Offered_Agent_Domain>
+		<Local_Digital_Certificate_Level>1</Local_Digital_Certificate_Level>  
+		<Offered_Ontology>ontology</Offered_Ontology>
+		<Foreign_Content>content</Foreign_Content>
+		<Translated_Foreign_Content>translated-content</Translated_Foreign_Content>
+		<Translated_Local_Response>translated-local-response</Translated_Local_Response>
+		<Local_Response>local-response</Local_Response>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<REQUEST_ConversationID>request-embassy</REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>translatedContent-unavailable</FAILURE_Content>
+	</SuccessfulScenario>
+
+	<ExceptionalScenario>
+		<Translated_Content>translated-content</Translated_Content>		
+		<Offered_Local_Response>local-response</Offered_Local_Response>
+		<Offered_Agent_Domain>agent-domain</Offered_Agent_Domain>
+		<Local_Digital_Certificate_Level>1</Local_Digital_Certificate_Level>  
+		<Offered_Ontology>ontology</Offered_Ontology>
+		<Foreign_Content>content</Foreign_Content>
+		<Translated_Foreign_Content>other-translated-content</Translated_Foreign_Content>
+		<Translated_Local_Response>translated-local-response</Translated_Local_Response>
+		<Local_Response>local-response</Local_Response>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<REQUEST_ConversationID>request-embassy</REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>translatedContent-unavailable</FAILURE_Content>
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

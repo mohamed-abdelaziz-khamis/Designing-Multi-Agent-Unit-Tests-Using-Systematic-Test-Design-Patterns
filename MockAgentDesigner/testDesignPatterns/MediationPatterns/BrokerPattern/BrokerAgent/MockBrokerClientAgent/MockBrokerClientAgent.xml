@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>
+		
+		<Requested_Service_Title>service-title</Requested_Service_Title>
+		<Ticker_Behaviour_Period>60000</Ticker_Behaviour_Period>
+
+		<REQUEST_ConversationID>service-broking</REQUEST_ConversationID>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>	
+		
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key>
+		<Service_Description_Type_Value>service-providing</Service_Description_Type_Value>
+		
+		<ACCEPT_PROPOSAL_ConversationID>service-broking</ACCEPT_PROPOSAL_ConversationID>
+		<ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</ACCEPT_PROPOSAL_Performative>
+		
+		<CONFIRM_ConversationID>service-broking</CONFIRM_ConversationID>
+		<CONFIRM_Performative>CONFIRM</CONFIRM_Performative>
+				
+		<INFORM_ConversationID>service-broking</INFORM_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+	
+		<Requested_Service_Title>service-title</Requested_Service_Title>
+		<Ticker_Behaviour_Period>60000</Ticker_Behaviour_Period>
+
+		<REQUEST_ConversationID>service-broking</REQUEST_ConversationID>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>	
+		
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key>
+		<Service_Description_Type_Value>service-providing</Service_Description_Type_Value>
+		
+		<ACCEPT_PROPOSAL_ConversationID>service-broking</ACCEPT_PROPOSAL_ConversationID>
+		<ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</ACCEPT_PROPOSAL_Performative>
+		
+		<CONFIRM_ConversationID>service-broking</CONFIRM_ConversationID>
+		<CONFIRM_Performative>CONFIRM</CONFIRM_Performative>
+				
+		<INFORM_ConversationID>service-broking</INFORM_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		
+	</ExceptionalScenario>
+</TestDesignPattern>

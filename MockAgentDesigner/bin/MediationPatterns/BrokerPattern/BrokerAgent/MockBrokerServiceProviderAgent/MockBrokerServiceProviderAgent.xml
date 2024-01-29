@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>
+	
+		<Offered_Service_Title>service-title</Offered_Service_Title>
+		<Offered_Service_Price>100</Offered_Service_Price>
+		
+		<Waker_Behaviour_Period>60000</Waker_Behaviour_Period>
+
+		<Subscription_REQUEST_Performative>REQUEST</Subscription_REQUEST_Performative>
+		<Subscription_REQUEST_ConversationID>service-broking</Subscription_REQUEST_ConversationID>
+		
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key>		
+		<Service_Description_Type_Value>service-providing</Service_Description_Type_Value>
+		<Service_Description_Name_Key>Service_Description_Name</Service_Description_Name_Key>
+		<Service_Description_Name_Value>JADE-service-broking</Service_Description_Name_Value>
+		
+		<Subscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Subscription_ACCEPT_PROPOSAL_Performative>
+		<Subscription_ACCEPT_PROPOSAL_ConversationID>service-broking</Subscription_ACCEPT_PROPOSAL_ConversationID>
+
+		<CFP_Performative>CFP</CFP_Performative>		
+		<CFP_ConversationID>service-broking</CFP_ConversationID>
+		
+		<PROPOSE_Performative>PROPOSE</PROPOSE_Performative>
+		
+		<REFUSE_Performative>REFUSE</REFUSE_Performative>
+		<REFUSE_Content>service-unavailable</REFUSE_Content>
+		
+		<ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</ACCEPT_PROPOSAL_Performative>
+		<ACCEPT_PROPOSAL_ConversationID>service-broking</ACCEPT_PROPOSAL_ConversationID>		
+		
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>service-failure</FAILURE_Content>
+		
+		<Unsubscription_REQUEST_Performative>REQUEST</Unsubscription_REQUEST_Performative>
+		<Unsubscription_REQUEST_ConversationID>service-broking</Unsubscription_REQUEST_ConversationID>
+				
+		<Unsubscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Unsubscription_ACCEPT_PROPOSAL_Performative>		
+		<Unsubscription_ACCEPT_PROPOSAL_ConversationID>service-broking</Unsubscription_ACCEPT_PROPOSAL_ConversationID>
+
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+	
+		<Offered_Service_Title>service-title</Offered_Service_Title>
+		<Offered_Service_Price>100</Offered_Service_Price>
+		
+		<Waker_Behaviour_Period>60000</Waker_Behaviour_Period>
+
+		<Subscription_REQUEST_Performative>REQUEST</Subscription_REQUEST_Performative>
+		<Subscription_REQUEST_ConversationID>service-broking</Subscription_REQUEST_ConversationID>
+		
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key>		
+		<Service_Description_Type_Value>service-providing</Service_Description_Type_Value>
+		<Service_Description_Name_Key>Service_Description_Name</Service_Description_Name_Key>
+		<Service_Description_Name_Value>JADE-service-broking</Service_Description_Name_Value>
+		
+		<Subscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Subscription_ACCEPT_PROPOSAL_Performative>
+		<Subscription_ACCEPT_PROPOSAL_ConversationID>service-broking</Subscription_ACCEPT_PROPOSAL_ConversationID>
+
+		<CFP_Performative>CFP</CFP_Performative>		
+		<CFP_ConversationID>service-broking</CFP_ConversationID>
+		
+		<PROPOSE_Performative>PROPOSE</PROPOSE_Performative>
+		
+		<REFUSE_Performative>REFUSE</REFUSE_Performative>
+		<REFUSE_Content>service-unavailable</REFUSE_Content>
+		
+		<ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</ACCEPT_PROPOSAL_Performative>
+		<ACCEPT_PROPOSAL_ConversationID>service-broking</ACCEPT_PROPOSAL_ConversationID>		
+		
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>service-failure</FAILURE_Content>
+		
+		<Unsubscription_REQUEST_Performative>REQUEST</Unsubscription_REQUEST_Performative>
+		<Unsubscription_REQUEST_ConversationID>service-broking</Unsubscription_REQUEST_ConversationID>
+				
+		<Unsubscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Unsubscription_ACCEPT_PROPOSAL_Performative>		
+		<Unsubscription_ACCEPT_PROPOSAL_ConversationID>service-broking</Unsubscription_ACCEPT_PROPOSAL_ConversationID>
+
+		
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

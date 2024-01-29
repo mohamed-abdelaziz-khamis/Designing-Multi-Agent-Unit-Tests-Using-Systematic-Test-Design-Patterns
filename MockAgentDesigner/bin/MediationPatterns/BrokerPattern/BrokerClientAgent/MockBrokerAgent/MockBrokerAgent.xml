@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>		
+		<Requested_Service_Title>service-title</Requested_Service_Title>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<REQUEST_ConversationID>service-broking</REQUEST_ConversationID>
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key>
+		<ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</ACCEPT_PROPOSAL_Performative>
+		<ACCEPT_PROPOSAL_Content>service-description-type-available</ACCEPT_PROPOSAL_Content>
+		<CONFIRM_Performative>CONFIRM</CONFIRM_Performative>
+		<CONFIRM_ConversationID>service-broking</CONFIRM_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<INFORM_Content>100</INFORM_Content>		
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Requested_Service_Title>service-title</Requested_Service_Title>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<REQUEST_ConversationID>service-broking</REQUEST_ConversationID>
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key>
+		<ACCEPT_PROPOSAL_Performative>REFUSE</ACCEPT_PROPOSAL_Performative>
+		<ACCEPT_PROPOSAL_Content>service-description-type-unavailable</ACCEPT_PROPOSAL_Content>
+		<CONFIRM_Performative>CONFIRM</CONFIRM_Performative>
+		<CONFIRM_ConversationID>service-broking</CONFIRM_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<INFORM_Content>100</INFORM_Content>		
+	</ExceptionalScenario>
+</TestDesignPattern>

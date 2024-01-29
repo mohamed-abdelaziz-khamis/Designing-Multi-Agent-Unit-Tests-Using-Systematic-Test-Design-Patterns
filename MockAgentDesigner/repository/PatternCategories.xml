@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<PatternCategories>
+	<PatternCategory> 
+		<PatternCategoryID>1</PatternCategoryID>
+		<PatternCategoryName>PairPatterns</PatternCategoryName>
+		<PatternCategoryDescription>Describe direct interactions between negotiating agents</PatternCategoryDescription> 
+	</PatternCategory>
+	<PatternCategory> 
+		<PatternCategoryID>2</PatternCategoryID>
+		<PatternCategoryName>MediationPatterns</PatternCategoryName>
+		<PatternCategoryDescription>Feature intermediary agents that help other agents to reach an agreement on an exchange of services</PatternCategoryDescription> 
+	</PatternCategory>
+</PatternCategories>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	
+	<SuccessfulScenario>
+		<Waker_Behaviour_Period>60000</Waker_Behaviour_Period>
+		<Subscription_REQUEST_ConversationID>service-subscription</Subscription_REQUEST_ConversationID>
+		<Subscription_REQUEST_Performative>REQUEST</Subscription_REQUEST_Performative>
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key> 
+		<Service_Description_Type_Value>service-providing</Service_Description_Type_Value>
+		<Service_Description_Name_Key>Service_Description_Name</Service_Description_Name_Key>
+		<Service_Description_Name_Value>JADE-service-subcription</Service_Description_Name_Value>
+		<Subscription_ACCEPT_PROPOSAL_ConversationID>service-subscription</Subscription_ACCEPT_PROPOSAL_ConversationID>
+		<Subscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Subscription_ACCEPT_PROPOSAL_Performative>
+		<Unsubscription_REQUEST_ConversationID>service-subscription</Unsubscription_REQUEST_ConversationID>
+		<Unsubscription_REQUEST_Performative>REQUEST</Unsubscription_REQUEST_Performative>
+		<Unsubscription_ACCEPT_PROPOSAL_ConversationID>service-subscription</Unsubscription_ACCEPT_PROPOSAL_ConversationID>
+		<Unsubscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Unsubscription_ACCEPT_PROPOSAL_Performative>	
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Waker_Behaviour_Period>60000</Waker_Behaviour_Period>
+		<Subscription_REQUEST_ConversationID>service-subscription</Subscription_REQUEST_ConversationID>
+		<Subscription_REQUEST_Performative>REQUEST</Subscription_REQUEST_Performative>
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key> 
+		<Service_Description_Type_Value>other-service-providing</Service_Description_Type_Value>
+		<Service_Description_Name_Key>Service_Description_Name</Service_Description_Name_Key>
+		<Service_Description_Name_Value>JADE-service-subcription</Service_Description_Name_Value>
+		<Subscription_ACCEPT_PROPOSAL_ConversationID>service-subscription</Subscription_ACCEPT_PROPOSAL_ConversationID>
+		<Subscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Subscription_ACCEPT_PROPOSAL_Performative>
+		<Unsubscription_REQUEST_ConversationID>service-subscription</Unsubscription_REQUEST_ConversationID>
+		<Unsubscription_REQUEST_Performative>REQUEST</Unsubscription_REQUEST_Performative>
+		<Unsubscription_ACCEPT_PROPOSAL_ConversationID>service-subscription</Unsubscription_ACCEPT_PROPOSAL_ConversationID>
+		<Unsubscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Unsubscription_ACCEPT_PROPOSAL_Performative>	
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

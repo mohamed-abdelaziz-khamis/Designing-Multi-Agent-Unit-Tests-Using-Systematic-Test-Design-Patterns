@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+
+<AgentRoles>
+	<AgentRole> 
+		<RoleID>1</RoleID>
+		<RoleName>BookingClientAgent</RoleName>
+		<PatternID>1</PatternID>
+		<RoleDescription>The Client issues a request to book some resource from a Service Provider</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>2</RoleID>
+		<RoleName>BookingServiceProviderAgent</RoleName>
+		<PatternID>1</PatternID>
+		<RoleDescription>The provider can accept the request, deny it, or propose to place the client on a waiting list, until the requested resource becomes available when some other client cancels a reservation.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>3</RoleID>
+		<RoleName>SubscriptionYellowPageAgent</RoleName>
+		<PatternID>2</PatternID>
+		<RoleDescription>The YellowPage agent allows agents to publish one or more services they provide so that other agents can find and successively exploit them.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>4</RoleID>
+		<RoleName>SubscriptionServiceProviderAgent</RoleName>
+		<PatternID>2</PatternID>
+		<RoleDescription>The Service provider advertises its services by subscribing to the YellowPage and if it wishes no longer to be advertised, it can request to be unsubscribed.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>5</RoleID>
+		<RoleName>BuyerAgent</RoleName>
+		<PatternID>3</PatternID>
+		<RoleDescription>The initiator (buyer) issues a call for proposals for a service to all participants (sellers) and then accepts proposals that offer the service for a specified cost.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>6</RoleID>
+		<RoleName>SellerAgent</RoleName>
+		<PatternID>3</PatternID>
+		<RoleDescription>The seller is the service provider that sends a service price proposal to the buyer that found it through the yellow-page service.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>7</RoleID>
+		<RoleName>AuctioneerAgent</RoleName>
+		<PatternID>4</PatternID>
+		<RoleDescription>The initiator (auctioneer) organizes and leads the bidding process, and receives proposals.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>8</RoleID>
+		<RoleName>BidderAgent</RoleName>
+		<PatternID>4</PatternID>
+		<RoleDescription>The participants (bidders) send their proposals to the auctioneer signaling their willingness to pay the proposed price in order to buy the proposed goods.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>9</RoleID>
+		<RoleName>NotificationSubscriberAgent</RoleName>
+		<PatternID>5</PatternID>
+		<RoleDescription>Subscribers register for receiving, from a monitor agent, notifications of changes of state in some subjects of their interest.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>10</RoleID>
+		<RoleName>MonitorAgent</RoleName>
+		<PatternID>5</PatternID>
+		<RoleDescription>The monitor accepts subscriptions, request notifications from subjects of interest, receives notifications of events and alerts subscribers to relevant events.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>11</RoleID>
+		<RoleName>NotificationSourceAgent</RoleName>
+		<PatternID>5</PatternID>
+		<RoleDescription>The source provides notifications of state changes as requested.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>12</RoleID>
+		<RoleName>BrokerClientAgent</RoleName>
+		<PatternID>6</PatternID>
+		<RoleDescription>Clients access the service of providers by sending requests via the broker.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>13</RoleID>
+		<RoleName>BrokerAgent</RoleName>
+		<PatternID>6</PatternID>
+		<RoleDescription>Broker agent is an arbiter and intermediates the access to services of an agent (provider) to satisfy the request of a client.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>14</RoleID>
+		<RoleName>BrokerServiceProviderAgent</RoleName>
+		<PatternID>6</PatternID>
+		<RoleDescription>Service provider is located by the broker that forwards the client request to the provider that sends results and exceptions to the broker that transmits them back to the client.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>15</RoleID>
+		<RoleName>MatchmakerClientAgent</RoleName>
+		<PatternID>7</PatternID>
+		<RoleDescription>The Client requests the identification of an agent that provides a specific service.</RoleDescription> 
+	</AgentRole>
+	<AgentRole>
+		<RoleID>16</RoleID>
+		<RoleName>Matchmaker</RoleName>
+		<PatternID>7</PatternID>
+		<RoleDescription>The Matchmaker finds the Provider of the requested service and gives its identification to the Client.</RoleDescription></AgentRole>
+	<AgentRole> 
+		<RoleID>17</RoleID>
+		<RoleName>MatchmakerProviderAgent</RoleName>
+		<PatternID>7</PatternID>
+		<RoleDescription>The Provider must subscribe the Matchmaker yellow page service in order to be found by the clients requesting its services.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>18</RoleID>
+		<RoleName>MediatorClientAgent</RoleName>
+		<PatternID>8</PatternID>
+		<RoleDescription>The Client addresses the mediator in place of asking directly another colleague, the service provider.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>19</RoleID>
+		<RoleName>MediatorAgent</RoleName>
+		<PatternID>8</PatternID>
+		<RoleDescription>The Mediator coordinates the cooperative behavior of the colleagues and has acquaintance models of all colleague agents.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>20</RoleID>
+		<RoleName>MediatorProviderAgent</RoleName>
+		<PatternID>8</PatternID>
+		<RoleDescription>Each service provider has an acquaintance model of the mediator.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>21</RoleID>
+		<RoleName>ForeignAgent</RoleName>
+		<PatternID>9</PatternID>
+		<RoleDescription>The foreign agent can submit messages to the embassy for translation, if the access to the local agent is granted.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>22</RoleID>
+		<RoleName>EmbassyAgent</RoleName>
+		<PatternID>9</PatternID>
+		<RoleDescription>The Embassy routes a service requested by a foreign agent to a local one and handle the response back.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>23</RoleID>
+		<RoleName>LocalAgent</RoleName>
+		<PatternID>9</PatternID>
+		<RoleDescription>The Local agents got the translated messages from the Embassy that passes the results of the query back out to the foreign agent, translated in reverse.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>24</RoleID>
+		<RoleName>WrapperClientAgent</RoleName>
+		<PatternID>10</PatternID>
+		<RoleDescription>The Client agent sends service request to the wrapper and then the wrapper translates and sends back the source answer to the client.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>25</RoleID>
+		<RoleName>WrapperAgent</RoleName>
+		<PatternID>10</PatternID>
+		<RoleDescription>The Wrapper agent interfaces the clients to the legacy by acting as a translator between them.</RoleDescription> 
+	</AgentRole>
+	<AgentRole> 
+		<RoleID>26</RoleID>
+		<RoleName>WrapperSourceAgent</RoleName>
+		<PatternID>10</PatternID>
+		<RoleDescription>The Source agent got the translated client request from the wrapper, then sends the answer to the wrapper.</RoleDescription> 
+	</AgentRole>
+</AgentRoles>

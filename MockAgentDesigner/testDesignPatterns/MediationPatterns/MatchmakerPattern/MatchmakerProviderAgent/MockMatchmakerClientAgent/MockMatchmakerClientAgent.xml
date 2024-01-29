@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+
+	<SuccessfulScenario>		
+		<Requested_Service_Title>service-title</Requested_Service_Title>
+		<Offered_Service_Title>service-title</Offered_Service_Title>
+		<Offered_Service_Price>100</Offered_Service_Price>
+		<Provider_REQUEST_Performative>REQUEST</Provider_REQUEST_Performative>
+		<Provider_REQUEST_ConversationID>service-matchmaking</Provider_REQUEST_ConversationID>
+		<Provider_INFORM_Performative>INFORM</Provider_INFORM_Performative>
+		<Provider_INFORM_ConversationID>service-matchmaking</Provider_INFORM_ConversationID>		
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Requested_Service_Title>other-service-title</Requested_Service_Title>
+		<Offered_Service_Title>service-title</Offered_Service_Title>
+		<Offered_Service_Price>100</Offered_Service_Price>
+		<Provider_REQUEST_Performative>REQUEST</Provider_REQUEST_Performative>
+		<Provider_REQUEST_ConversationID>service-matchmaking</Provider_REQUEST_ConversationID>
+		<Provider_INFORM_Performative>INFORM</Provider_INFORM_Performative>
+		<Provider_INFORM_ConversationID>service-matchmaking</Provider_INFORM_ConversationID>		
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

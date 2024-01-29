@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+
+	<SuccessfulScenario>
+		<Requested_Service_Title>service-title</Requested_Service_Title>
+		<Offered_Resource_Title>service-title</Offered_Resource_Title>
+		<Offered_Resource_Price>100</Offered_Resource_Price>
+		<Service_Description_Type>service-selling</Service_Description_Type>
+		<Service_Description_Name>JADE-service-trading</Service_Description_Name>
+		<CFP_ConversationID>service-trade</CFP_ConversationID>
+		<CFP_Performative>CFP</CFP_Performative>
+		<REFUSE_Performative>REFUSE</REFUSE_Performative>
+		<REFUSE_Content>service-unavailable</REFUSE_Content>
+		<PROPOSE_Performative>PROPOSE</PROPOSE_Performative>
+		<ACCEPT_PROPOSAL_ConversationID>service-trade</ACCEPT_PROPOSAL_ConversationID>
+		<ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</ACCEPT_PROPOSAL_Performative>		
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>sale-failed</FAILURE_Content>
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Requested_Service_Title>service-title</Requested_Service_Title>
+		<Offered_Resource_Title>other-service-title</Offered_Resource_Title>
+		<Offered_Resource_Price>100</Offered_Resource_Price>
+		<Service_Description_Type>service-selling</Service_Description_Type>
+		<Service_Description_Name>JADE-service-trading</Service_Description_Name>
+		<CFP_ConversationID>service-trade</CFP_ConversationID>
+		<CFP_Performative>CFP</CFP_Performative>
+		<REFUSE_Performative>REFUSE</REFUSE_Performative>
+		<REFUSE_Content>service-unavailable</REFUSE_Content>
+		<PROPOSE_Performative>PROPOSE</PROPOSE_Performative>
+		<ACCEPT_PROPOSAL_ConversationID>service-trade</ACCEPT_PROPOSAL_ConversationID>
+		<ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</ACCEPT_PROPOSAL_Performative>		
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>sale-failed</FAILURE_Content>
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

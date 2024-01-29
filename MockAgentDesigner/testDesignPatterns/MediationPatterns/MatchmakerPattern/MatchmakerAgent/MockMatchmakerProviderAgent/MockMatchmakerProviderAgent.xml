@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>	
+		<Offered_Service_Title>service-title</Offered_Service_Title>
+		<Offered_Service_Price>100</Offered_Service_Price>
+		<Waker_Behaviour_Period>60000</Waker_Behaviour_Period>
+		<Subscription_REQUEST_Performative>REQUEST</Subscription_REQUEST_Performative> 
+		<Subscription_REQUEST_ConversationID>service-matchmaking</Subscription_REQUEST_ConversationID>
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key>
+		<Service_Description_Type_Value>service-providing</Service_Description_Type_Value>
+		<Service_Description_Name_Key>Service_Description_Name</Service_Description_Name_Key> 
+		<Service_Description_Name_Value>JADE-service-matchmaking</Service_Description_Name_Value>
+		<Subscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Subscription_ACCEPT_PROPOSAL_Performative>
+		<Subscription_ACCEPT_PROPOSAL_ConversationID>service-matchmaking</Subscription_ACCEPT_PROPOSAL_ConversationID>
+		<Unsubscription_REQUEST_Performative>REQUEST</Unsubscription_REQUEST_Performative>
+		<Unsubscription_REQUEST_ConversationID>service-matchmaking</Unsubscription_REQUEST_ConversationID>
+		<Unsubscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Unsubscription_ACCEPT_PROPOSAL_Performative>
+		<Unsubscription_ACCEPT_PROPOSAL_ConversationID>service-matchmaking</Unsubscription_ACCEPT_PROPOSAL_ConversationID>		
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Offered_Service_Title>service-title</Offered_Service_Title>
+		<Offered_Service_Price>100</Offered_Service_Price>
+		<Waker_Behaviour_Period>60000</Waker_Behaviour_Period>
+		<Subscription_REQUEST_Performative>REQUEST</Subscription_REQUEST_Performative> 
+		<Subscription_REQUEST_ConversationID>service-matchmaking</Subscription_REQUEST_ConversationID>
+		<Service_Description_Type_Key>Service_Description_Type</Service_Description_Type_Key>
+		<Service_Description_Type_Value>other-service-providing</Service_Description_Type_Value>
+		<Service_Description_Name_Key>Service_Description_Name</Service_Description_Name_Key> 
+		<Service_Description_Name_Value>JADE-service-matchmaking</Service_Description_Name_Value>
+		<Subscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Subscription_ACCEPT_PROPOSAL_Performative>
+		<Subscription_ACCEPT_PROPOSAL_ConversationID>service-matchmaking</Subscription_ACCEPT_PROPOSAL_ConversationID>
+		<Unsubscription_REQUEST_Performative>REQUEST</Unsubscription_REQUEST_Performative>
+		<Unsubscription_REQUEST_ConversationID>service-matchmaking</Unsubscription_REQUEST_ConversationID>
+		<Unsubscription_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Unsubscription_ACCEPT_PROPOSAL_Performative>
+		<Unsubscription_ACCEPT_PROPOSAL_ConversationID>service-matchmaking</Unsubscription_ACCEPT_PROPOSAL_ConversationID>		
+	</ExceptionalScenario>
+	
+</TestDesignPattern>

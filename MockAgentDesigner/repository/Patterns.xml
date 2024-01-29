@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Patterns>
+	<Pattern>
+		<PatternID>1</PatternID>
+		<PatternName>BookingPattern</PatternName>
+		<PatternCategoryID>1</PatternCategoryID>
+		<PatternDescription>A client issues a request to book some resource from a service provider.</PatternDescription> 
+	</Pattern>
+	<Pattern>
+		<PatternID>2</PatternID>
+		<PatternName>SubscriptionPattern</PatternName>
+		<PatternCategoryID>1</PatternCategoryID>
+		<PatternDescription>The Subscription Pattern involves a yellow-page agent and a number of service providers that advertise their services by subscribing to the yellow pages.</PatternDescription> 
+	</Pattern>
+	<Pattern>
+		<PatternID>3</PatternID>
+		<PatternName>CallForProposalPattern</PatternName>
+		<PatternCategoryID>1</PatternCategoryID>
+		<PatternDescription>The Call-For-Proposals Pattern involves an initiator agent and a number of participants. The initiator issues a call for proposals for a service to all participants and then accepts proposals that offer the service for a specified cost.</PatternDescription> 
+	</Pattern>
+	<Pattern>
+		<PatternID>4</PatternID>
+		<PatternName>BiddingPattern</PatternName>
+		<PatternCategoryID>1</PatternCategoryID>
+		<PatternDescription>The Bidding Pattern involves an initiator and a number of participants. The initiator organizes and leads the bidding process, and receives proposals. At every iteration the initiator publishes the current bid; it can accept an order, raise the bid, or cancel the process</PatternDescription> 
+	</Pattern>
+	<Pattern>
+		<PatternID>5</PatternID>
+		<PatternName>MonitorPattern</PatternName>
+		<PatternCategoryID>2</PatternCategoryID>
+		<PatternDescription>In the Monitor Pattern, subscribers register for receiving, from a monitor agent, notifications of changes of state in some subjects of their interest. The monitor accepts subscriptions, request notifications from subjects of interest, receives notifications of events and alerts subscribers to relevant events. The subject provides notifications of state changes as requested</PatternDescription> 
+	</Pattern>
+	<Pattern>
+		<PatternID>6</PatternID>
+		<PatternName>BrokerPattern</PatternName>
+		<PatternCategoryID>2</PatternCategoryID>
+		<PatternDescription>In the Broker Pattern, the broker agent is an arbiter and intermediates the access to services of an agent (provider) to satisfy the request of a client. Clients access the service of providers by sending requests via the broker. A broker tasks include locating the appropriate provider, forwarding the request to the provider and transmitting results and exceptions back to the client</PatternDescription> 
+	</Pattern>
+	<Pattern>
+		<PatternID>7</PatternID>
+		<PatternName>MatchmakerPattern</PatternName>
+		<PatternCategoryID>2</PatternCategoryID>
+		<PatternDescription>In the Matchmaker Pattern, a matchmaker agent locates a provider corresponding to a consumer request for service, and then hands the consumer a direct handle to the chosen provider.</PatternDescription> 
+	</Pattern>
+	<Pattern>
+		<PatternID>8</PatternID>
+		<PatternName>MediatorPattern</PatternName>
+		<PatternCategoryID>2</PatternCategoryID>
+		<PatternDescription>In the Mediator Pattern, a mediator agent mediates interactions among agents. An initiator addresses the mediator in place of asking directly another colleague, the performer. The mediator has acquaintance models of colleagues and coordinates the cooperation between them. Conversely, each performer has an acquaintance model of the mediator.</PatternDescription> 
+	</Pattern>
+	<Pattern>
+		<PatternID>9</PatternID>
+		<PatternName>EmbassyPattern</PatternName>
+		<PatternCategoryID>2</PatternCategoryID>
+		<PatternDescription>In the Embassy Pattern, an embassy routes a service requested by a foreign agent to a local one and handle the response back. If the access to the local agent is granted, the foreign agent can submit messages to the embassy for translation. The content is translated in accordance to a standard ontology. Translated messages are forwarded to target local agents. The results of the query are passed back out to the foreign agent, translated in reverse.</PatternDescription> 
+	</Pattern>
+	<Pattern>
+		<PatternID>10</PatternID>
+		<PatternName>WrapperPattern</PatternName>
+		<PatternCategoryID>2</PatternCategoryID>
+		<PatternDescription>The Wrapper Pattern incorporates a legacy system into a multi-agent system. The wrapper agent interfaces the clients to the legacy by acting as a translator between them.</PatternDescription> 
+	</Pattern>							
+</Patterns>

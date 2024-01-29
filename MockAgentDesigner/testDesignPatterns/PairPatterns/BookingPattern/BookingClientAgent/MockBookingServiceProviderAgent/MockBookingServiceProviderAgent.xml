@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+
+	<SuccessfulScenario>
+		<Requested_Resource_Title>resource-title</Requested_Resource_Title>
+		<Offered_Resource_Title>resource-title</Offered_Resource_Title>
+		<Offered_Resource_Price>100</Offered_Resource_Price>
+		<REQUEST_ConversationID>resource-booking</REQUEST_ConversationID>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<WL_PROPOSE_Performative>PROPOSE</WL_PROPOSE_Performative>
+		<WL_PROPOSE_Content>waiting-list</WL_PROPOSE_Content>
+		<Rsrc_PROPOSE_Performative>PROPOSE</Rsrc_PROPOSE_Performative>
+		<REFUSE_Performative>REFUSE</REFUSE_Performative>
+		<REFUSE_Content>resource-unavailable</REFUSE_Content>
+		<Rsrc_ACCEPT_PROPOSAL_ConversationID>resource-booking</Rsrc_ACCEPT_PROPOSAL_ConversationID>
+		<Rsrc_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Rsrc_ACCEPT_PROPOSAL_Performative>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<INFORM_Content>reservation-completed</INFORM_Content>
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>reservation-failed</FAILURE_Content>
+		<WL_ACCEPT_PROPOSAL_ConversationID>resource-booking</WL_ACCEPT_PROPOSAL_ConversationID>
+		<WL_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</WL_ACCEPT_PROPOSAL_Performative>
+		<Waiting_List_Deadline_Key>WaitingListDeadLine</Waiting_List_Deadline_Key>
+		<CANCEL_ConversationID>resource-booking</CANCEL_ConversationID>
+		<CANCEL_Performative>CANCEL</CANCEL_Performative>
+		<CONFIRM_Performative>CONFIRM</CONFIRM_Performative>
+		<CONFIRM_Content>reservation-cancelation-completed</CONFIRM_Content>
+		<DISCONFIRM_Performative>DISCONFIRM</DISCONFIRM_Performative>
+		<DISCONFIRM_Content>reservation-cancelation-failed</DISCONFIRM_Content>				
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Requested_Resource_Title>resource-title</Requested_Resource_Title>
+		<Offered_Resource_Title>other-resource-title</Offered_Resource_Title>
+		<Offered_Resource_Price>100</Offered_Resource_Price>
+		<REQUEST_ConversationID>resource-booking</REQUEST_ConversationID>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<WL_PROPOSE_Performative>PROPOSE</WL_PROPOSE_Performative>
+		<WL_PROPOSE_Content>waiting-list</WL_PROPOSE_Content>
+		<Rsrc_PROPOSE_Performative>PROPOSE</Rsrc_PROPOSE_Performative>
+		<REFUSE_Performative>REFUSE</REFUSE_Performative>
+		<REFUSE_Content>resource-unavailable</REFUSE_Content>
+		<Rsrc_ACCEPT_PROPOSAL_ConversationID>resource-booking</Rsrc_ACCEPT_PROPOSAL_ConversationID>
+		<Rsrc_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</Rsrc_ACCEPT_PROPOSAL_Performative>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<INFORM_Content>reservation-completed</INFORM_Content>
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>reservation-failed</FAILURE_Content>
+		<WL_ACCEPT_PROPOSAL_ConversationID>resource-booking</WL_ACCEPT_PROPOSAL_ConversationID>
+		<WL_ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</WL_ACCEPT_PROPOSAL_Performative>
+		<Waiting_List_Deadline_Key>WaitingListDeadLine</Waiting_List_Deadline_Key>
+		<CANCEL_ConversationID>resource-booking</CANCEL_ConversationID>
+		<CANCEL_Performative>CANCEL</CANCEL_Performative>
+		<CONFIRM_Performative>CONFIRM</CONFIRM_Performative>
+		<CONFIRM_Content>reservation-cancelation-completed</CONFIRM_Content>
+		<DISCONFIRM_Performative>DISCONFIRM</DISCONFIRM_Performative>
+		<DISCONFIRM_Content>reservation-cancelation-failed</DISCONFIRM_Content>
+	</ExceptionalScenario>
+</TestDesignPattern>

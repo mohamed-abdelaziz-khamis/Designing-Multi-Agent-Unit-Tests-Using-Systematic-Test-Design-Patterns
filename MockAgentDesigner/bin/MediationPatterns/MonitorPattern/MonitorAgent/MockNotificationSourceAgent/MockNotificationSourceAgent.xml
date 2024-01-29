@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+	<SuccessfulScenario>
+		<Offered_Subject_Title>subject-title</Offered_Subject_Title>
+		<Current_State>current-state</Current_State>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<REQUEST_ConversationID>notification-monitoring</REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>notification-failure</FAILURE_Content>
+	</SuccessfulScenario>
+	<ExceptionalScenario>
+		<Offered_Subject_Title>subject-title</Offered_Subject_Title>
+		<Current_State>current-state</Current_State>
+		<REQUEST_Performative>REQUEST</REQUEST_Performative>
+		<REQUEST_ConversationID>notification-monitoring</REQUEST_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>
+		<FAILURE_Performative>FAILURE</FAILURE_Performative>
+		<FAILURE_Content>notification-failure</FAILURE_Content>
+	</ExceptionalScenario>
+</TestDesignPattern>

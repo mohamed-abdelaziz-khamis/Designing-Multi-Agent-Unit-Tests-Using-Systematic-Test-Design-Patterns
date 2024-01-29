@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<TestDesignPattern>
+
+	<SuccessfulScenario>
+		<Requested_Service_Title>service-title</Requested_Service_Title>
+		<Offered_Resource_Title>service-title</Offered_Resource_Title>
+		<Offered_Resource_Price>100</Offered_Resource_Price>
+		<Ticker_Behaviour_Period>60000</Ticker_Behaviour_Period>
+		<Service_Description_Type>service-selling</Service_Description_Type>
+		<CFP_ConversationID>service-trade</CFP_ConversationID>
+		<PROPOSE_ConversationID>service-trade</PROPOSE_ConversationID>
+		<PROPOSE_Performative>PROPOSE</PROPOSE_Performative>
+		<ACCEPT_PROPOSAL_ConversationID>service-trade</ACCEPT_PROPOSAL_ConversationID>
+		<ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</ACCEPT_PROPOSAL_Performative>		
+		<INFORM_ConversationID>service-trade</INFORM_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>		
+	</SuccessfulScenario>
+	
+	<ExceptionalScenario>
+		<Requested_Service_Title>other-service-title</Requested_Service_Title>
+		<Offered_Resource_Title>service-title</Offered_Resource_Title>
+		<Offered_Resource_Price>100</Offered_Resource_Price>
+		<Ticker_Behaviour_Period>60000</Ticker_Behaviour_Period>
+		<Service_Description_Type>service-selling</Service_Description_Type>
+		<CFP_ConversationID>service-trade</CFP_ConversationID>
+		<PROPOSE_ConversationID>service-trade</PROPOSE_ConversationID>
+		<PROPOSE_Performative>PROPOSE</PROPOSE_Performative>
+		<ACCEPT_PROPOSAL_ConversationID>service-trade</ACCEPT_PROPOSAL_ConversationID>
+		<ACCEPT_PROPOSAL_Performative>ACCEPT_PROPOSAL</ACCEPT_PROPOSAL_Performative>		
+		<INFORM_ConversationID>service-trade</INFORM_ConversationID>
+		<INFORM_Performative>INFORM</INFORM_Performative>		
+	</ExceptionalScenario>
+	
+</TestDesignPattern>
